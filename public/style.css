@@ -1,0 +1,21 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.imagebox{
+     border-radius: 10px;
+}
+.heading{
+    color: greenyellow;
+     text-shadow: 4px 4px  rgb(2, 0, 0);
+     font-size: 5rem;
+}
+.imagebox img{
+     border-radius: 10px;
+}
+@media (max-width:375px){
+      .heading{
+           font-size: 3rem;
+      }
+}
